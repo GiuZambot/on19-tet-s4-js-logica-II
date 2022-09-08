@@ -7,3 +7,6 @@ const pessoa = {
 };
 
 // usando for in, imprima todas as propriedades e seus valores, um por um.
+
+for (const prop in pessoa)
+console.log("pessoa." + prop + " = " + pessoa[prop]);

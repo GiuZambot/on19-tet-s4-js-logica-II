@@ -2,7 +2,12 @@ const arrNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
 
 // Usando filter, imprima apenas os números acima de 10
 
+const arrFiltrada = arrNumeros.filter(x => x > 10);
+console.log(arrFiltrada)
 // Usando filter, imprima apenas os números pares
+
+const arrFiltrada2 = arrNumeros.filter(x => /2 % 0)
+console.log(arrFiltrada2)
 
 const arrObjetos = [
   {
